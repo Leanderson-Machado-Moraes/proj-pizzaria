@@ -1,0 +1,62 @@
+*{
+
+}
+body{
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-color: #5e2129;
+    text-align: center;
+    width: 65%;
+    margin: 0px auto;
+    padding-top: 2px;
+    height: 500pt;
+   
+}
+.titulo{
+    background-color: white;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.informações{
+    border: 2px solid black;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+img{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.sabores{
+    flex-direction: column;
+    display: flex;
+}
+table{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+.gerarpedido{
+    font-size: 20pt;
+    border: 1px solid black;
+}
+.btnpedido{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+
+}
