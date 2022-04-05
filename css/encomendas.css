@@ -16,12 +16,13 @@ body{
     width: 65%;
     margin: 0px auto;
     padding-top: 2px;
-    height: 500pt;
+    height: 530pt;
    
 }
 .titulo{
     background-color: white;
     font-family: 'Rubik Moonrocks', cursive;
+    font-size: 15pt;
 }
 .informações{
     border: 2px solid black;
@@ -36,16 +37,19 @@ body{
 img{
     margin-top: 10px;
     border: 2px solid black;
+  
 }
 .sabores{
     flex-direction: column;
     display: flex;
+    text-align: left;
+  
 }
 table{
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
     width: 50%;
 }
@@ -59,4 +63,10 @@ table{
   margin-bottom: 20px;
   
 
+}
+.pedido{
+    background-color: yellow;
+}
+tr{
+    border: 2px solid black;
 }
