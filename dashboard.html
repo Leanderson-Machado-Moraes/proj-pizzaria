@@ -23,12 +23,14 @@
             </div>
             <h3>Sabores</h3>
             <div class="sabores">
-                <label for="mussarela"> <input type="radio" name="mussarela" id="mussarela"> Mussarela</label>
-                <label for="calabresa"> <input type="radio" name="calabresa" id="calabresa"> Calabresa</label>
-                <label for="margerita"> <input type="radio" name="margerita" id="margerita"> Margerita</label>
+                <label for="mussarela"> <input  type="radio" name="pizza" id="mussarela" checked> Mussarela</label>
+                <label for="calabresa"> <input  type="radio" name="pizza" id="calabresa"> Calabresa</label>
+                <label for="margerita"> <input  type="radio" name="pizza" id="margerita"> Margerita</label>
             </div>
+            <button class="btncal" id="enviar">Enviar carrinho</button>
+            <button class="btncal" id="estorno">Estorno</button>
             <h3>Orçamento</h3>
-            <table border="2">
+            <table id="table" border="2">
                 <tr class="pedido">
                     <th colspan="3">Pedido</th>
                 </tr>
@@ -39,40 +41,34 @@
                 </tr>
                 <tr>
                     <td>Mussarela</td>
-                    <td></td>
-                    <td></td>
+                    <td id="quantidadem">0</td>
+                    <td id="somam">R$ 0,00</td>
                 </tr>
                 <tr>
                     <td>Calabresa</td>
-                    <td></td>
-                    <td></td>
+                    <td id="quantidadec">0</td>
+                    <td id="somac">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td>Margerita</td>
+                    <td id="quantidadema">0</td>
+                    <td id="somama">R$ 0,00</td>
+                        
+
                 </tr>
 
 
             </table>
             <div class="btnpedido">
-                <input class="gerarpedido" type="button" value="Gerar pedido">
+                <input id="btplanilha" class="gerarpedido" type="button" value="Gerar pedido">
             </div>
 
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
+<script src="./js/dashboard.js"></script>
+<script type="text/javascript" src="./js/tableToExcel.js"></script>
 
 </body>
 
