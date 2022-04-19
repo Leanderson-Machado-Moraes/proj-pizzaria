@@ -11,22 +11,24 @@
 
 <body>
     <div class="container">
+  
         <div class="locker">
             <img class="cadeado"  src="./img/locker.png" alt="locker">
         </div>
         <div class="email">
-            <input   name="email" id="emaillogin" placeholder="E-mail">
+            <input type = "text"  name="email" id="emaillogin" placeholder="E-mail">
         </div>
         <div class="password">
             <input type="password" name="password" id="passwordlogin" placeholder="Senha">
         </div>
         <div class="entrar">
-            <input class="btnentrar" type="button" value="Entrar">
+            <input class ="btnentrar" type="submit" value="Entrar" onclick="logar()">
         </div>
         <h3>Não possui cadastro? <a href="cadastro.html">Clique aqui!</a></h3>
+ 
     </div>
     
-    
+    <script src="./js/login.js"></script>
 
 </body>
 
